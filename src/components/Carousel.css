@@ -1,1 +1,27 @@
 /* write your carousel css in this file */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+.rightarr:hover{
+    transform: scale(2);
+}
+
+.leftarr:hover{
+    transform: scale(2);
+}
+
+.title {
+    position: absolute;
+    top: 20%;
+    color: white;
+
+}
+
